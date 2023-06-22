@@ -1,0 +1,40 @@
+.animation_circle{
+    position: relative;
+    background-color: blue;
+   border-radius: 50%;
+   width: 70%;
+   height: 70%;
+   animation-name: circle;
+   animation-duration: 5s;
+}
+@keyframes circle{
+    0%{
+left: 0;
+    }
+    20%{
+border-radius: 0;}
+40%{
+    left: 50%;
+}
+60%{
+    background-color: aquamarine;
+}
+80%{
+   border-radius: 0;
+}
+}
+.text_typing{
+    width: 40em;
+    color: mediumslateblue;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 5s steps(50,end) 5;
+}
+@keyframes type{
+    0%{
+        width: 0;
+    }
+   
+} 
